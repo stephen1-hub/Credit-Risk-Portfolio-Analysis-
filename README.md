@@ -38,8 +38,7 @@ Dataset Name: Credit Risk
 
 Source: Kaggle
 
-https://www.kaggle.com/datasets/laotse/credit-risk-dataset
-Link: 
+Link: https://www.kaggle.com/datasets/laotse/credit-risk-dataset
 
 The dataset includes borrower-level demographic, financial, and loan-related variables.
 
