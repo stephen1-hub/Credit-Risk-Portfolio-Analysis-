@@ -30,6 +30,19 @@ Identify which portfolio segments drive the most risk
 
 Provide actionable business recommendations
 
+# Questions I answered
+Are defaults common or rare?
+
+Does income affect default?
+
+Does employment length matter?
+
+Are certain loan intents riskier?
+
+Do interest rates correlate with default?
+
+Does previous default history strongly impact new default?
+
 # Dataset Source
 
 This project uses the Credit Risk dataset obtained from Kaggle.
