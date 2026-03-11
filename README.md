@@ -5,7 +5,7 @@ credit-risk-eda/
 ├── README.md
 ├── credit_risk_analysis.ipynb
 ├── images/
-Credit Risk Portfolio Analysis (EDA)
+# Credit Risk Portfolio Analysis (EDA)
 📌 Project Overview
 
 This project explores key drivers of loan default risk using Exploratory Data Analysis (EDA) techniques.
@@ -16,7 +16,7 @@ Identify the primary factors influencing loan default and determine which borrow
 
 This analysis focuses on affordability, exposure, risk segmentation, and business-driven insights.
 
-🧠 Business Problem
+# Business Problem
 
 Loan defaults significantly impact financial institutions through increased credit losses.
 
@@ -30,7 +30,7 @@ Identify which portfolio segments drive the most risk
 
 Provide actionable business recommendations
 
-📂 Dataset Source
+# Dataset Source
 
 This project uses the Credit Risk dataset obtained from Kaggle.
 
@@ -44,7 +44,7 @@ The dataset includes borrower-level demographic, financial, and loan-related var
 
 ⚠ Note: The raw dataset is not included in this repository. Please download it directly from Kaggle using the link above.
 
-🛠 Tools & Technologies
+# Tools & Technologies
 
 Python
 
@@ -56,7 +56,7 @@ Matplotlib / Seaborn
 
 Jupyter Notebook
 
-🔎 Key Variables Analyzed
+# Key Variables Analyzed
 
 person_income
 
@@ -72,7 +72,7 @@ cb_person_cred_hist_length
 
 loan_status (0 = Non-default, 1 = Default)
 
-📊 Key Findings
+# Key Findings
 1️⃣ Loan-to-Income Ratio Is the Strongest Risk Driver
 Loan Status	Avg Loan % of Income
 Non-default	~14.9%
@@ -80,7 +80,7 @@ Default	~24.7%
 
 Borrowers who default allocate significantly more of their income toward loan repayment.
 
-Insight:
+# Insight:
 Repayment burden (affordability) is the most powerful driver of default risk.
 
 2️⃣ Loan Amount Has Moderate Impact
@@ -106,7 +106,7 @@ Default	~5.69 years
 
 Minimal difference observed.
 
-Insight:
+# Insight:
 Repayment capacity is more influential than length of credit history in this dataset.
 
 5️⃣ Loan Grade Effectiveness
@@ -122,10 +122,10 @@ E	~64%
 F	~70%
 G	~98%
 
-Insight:
+# Insight:
 The loan grading system demonstrates strong discriminatory power.
 
-📈 Portfolio Risk Contribution
+# Portfolio Risk Contribution
 
 Although extreme-risk grades (F & G) show very high default rates, they represent a very small portion of the portfolio.
 
@@ -139,7 +139,7 @@ Grade D
 
 This segment combines significant exposure with high default probability, making it the primary loss driver.
 
-💼 Business Recommendations
+# Business Recommendations
 
 1️⃣ Implement Loan-to-Income Threshold Controls
 Introduce stricter approval criteria for borrowers exceeding affordability thresholds (e.g., >20%).
@@ -153,7 +153,7 @@ Ensure interest rates do not increase repayment strain beyond sustainable levels
 4️⃣ Include Loan Tenure in Future Analysis
 Loan duration data would improve installment-level affordability assessment.
 
-📌 Limitations
+# Limitations
 
 Loan repayment duration was not available.
 
@@ -161,12 +161,4 @@ No macroeconomic or behavioral repayment variables were included.
 
 This analysis focuses on EDA and does not include predictive modeling.
 
-🎯 Project Type
 
-Exploratory Data Analysis (EDA)
-
-Credit Risk Portfolio Analysis
-
-Risk Segmentation
-
-Business Insight Generation
